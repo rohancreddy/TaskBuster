@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conf",
+				"config"
+			],
+			[
+				"dj",
+				"dj_database_url"
+			],
+			[
+				"db",
+				"db_from_env"
+			],
+			[
+				"pl",
+				"plugin"
+			],
+			[
+				"c",
+				"currentTime"
+			],
+			[
+				"p",
+				"println"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"mana",
+				"manager-gui"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"ser",
+				"serializer"
+			],
+			[
+				"Is",
+				"IsAccountOwner"
+			],
+			[
+				"Acc",
+				"AccountSerializer"
+			],
+			[
+				"view",
+				"viewsets"
+			],
+			[
+				"con",
+				"confirm_password"
+			],
+			[
+				"A",
+				"AbstractBaseUser"
+			],
+			[
+				"i",
+				"IsOwnerOrReadOnly"
+			],
+			[
+				"s",
+				"snippets"
+			],
+			[
+				"User",
+				"UserSerializer"
+			],
+			[
+				"Use",
+				"UserSerializer"
+			],
+			[
+				"get",
+				"get_lexer_by_name"
+			],
+			[
+				"o",
+				"get_object"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"HTT",
+				"HTTP_400_BAD_REQUEST"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"Sni",
+				"SnippetSerializer"
+			],
+			[
+				"Snip",
+				"Snippet"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"JSONR",
+				"JSONResponse"
+			],
+			[
+				"cs",
+				"csrf_exempt"
+			],
+			[
+				"JSO",
+				"JSONResponse"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"S",
+				"STYLE_CHOICES"
+			],
+			[
+				"ass",
+				"assertEqual"
+			],
+			[
+				"pub",
+				"pub_date_lte"
+			],
+			[
+				"que",
+				"question_text"
+			],
+			[
+				"q",
+				"question_text"
+			],
+			[
+				"cre",
+				"create_question"
+			],
+			[
+				"ques",
+				"question_text"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"ge",
+				"generic"
+			],
+			[
+				"qu",
+				"question_id"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"padd",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "from selenium import webdriver\nimport unittest\n\nclass NewVisitorTest(unittest.TestCase):\n\n\tdef setUp(self):\n\t\tself.browser = webdriver.Firefox()\n\t\tself.browser.implicitly_wait(3)\n\n\tdef tearDown(self):\n\t\tself.browser.quit()\n\n\tdef test_it_worked(self):\n\t\tself.browser.get('http://localhost:8000')\n\t\tself.assertIn('Welcome to Django', self.browser.title)\n\n\tif __name__ = '__main__':\n\t\tunittest.main(warnings='ignore')",
+			"file": "all_users.py",
+			"file_size": 432,
+			"file_write_time": 131348433233048926,
+			"settings":
+			{
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rohan/Desktop/taskbuster_project/functional_tests"
+	],
+	"file_history":
+	[
+		"/C/Users/rohan/Desktop/Python Getting Started/python-getting-started/.gitignore",
+		"/C/Users/rohan/Desktop/Django Youtube/manage.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/Procfile",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/.gitignore",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/settings/local.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/requirements/base.txt",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/requirements/testing.txt",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/requirements/production.txt",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/requirements/development.txt",
+		"/C/Users/rohan/Desktop/DjangoHerokuSample/helloworld/helloworld/settings.py",
+		"/C/Users/rohan/Desktop/DjangoHerokuSample/helloworld/requirements.txt",
+		"/C/Users/rohan/Desktop/DjangoHerokuSample/helloworld/Procfile",
+		"/C/Users/rohan/Desktop/DjangoHerokuSample/helloworld/helloworld/wsgi.py",
+		"/C/Users/rohan/Desktop/DjangoHerokuSample/helloworld/runtime.txt",
+		"/C/Users/rohan/Desktop/Django Youtube/music/static/music/images/natural-paper-background-texture-hd-5a0b.jpg",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/templates/base.html",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/templates/about.html",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/views.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/__init__.py",
+		"/C/Users/rohan/Desktop/myfolderproject/ProcFile",
+		"/C/Users/rohan/Desktop/CeleryRabbit/firstceleryproject/firstceleryproject/celery.py",
+		"/C/Users/rohan/Desktop/CeleryRabbit/firstceleryproject/firstceleryproject/settings.py",
+		"/C/Users/rohan/Desktop/CeleryRabbit/firstceleryproject/firstceleryproject/__init__.py",
+		"/C/Users/rohan/Desktop/CeleryRabbit/requirements.txt",
+		"/C/Users/rohan/Desktop/Java Gradle/src/main/java/hello/Greeter.java",
+		"/C/Users/rohan/Desktop/Java Gradle/src/main/java/hello/HelloWorld.java",
+		"/C/Users/rohan/Desktop/Java Gradle/build.gradle",
+		"/C/Users/rohan/Downloads/gs-accessing-facebook-master/complete/src/main/resources/application.properties",
+		"/C/Users/rohan/Downloads/eclipse/work/DiscoverIndiaSOAP/WebContent/WEB-INF/web.xml",
+		"/C/Users/rohan/Downloads/eclipse/work/DiscoverIndiaSOAP/WebContent/WEB-INF/sun-jaxws.xml",
+		"/C/Users/rohan/Downloads/axis2-1.7.4/webapp/WEB-INF/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 9.0/conf/context.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/axis2.war",
+		"/C/Program Files/Apache Software Foundation/Tomcat 9.0/conf/server.xml",
+		"/C/Users/rohan/Desktop/Version Control/FirstProject/PHP/config.php",
+		"/C/Users/rohan/Downloads/primer-dataset.json",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/opportunity.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/models.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/admin.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/templates/home.html",
+		"/C/Users/rohan/Desktop/Tableau Data/OfficeSupplies.csv",
+		"/C/Users/rohan/Desktop/Django Google Plus/thinkster_django_angular_boilerplate/authentication/static/javascripts/authentication/services/authentication.service.js",
+		"/C/Users/rohan/Desktop/Django Google Plus/thinkster_django_angular_boilerplate/authentication/permissions.py",
+		"/C/Users/rohan/Desktop/Django Google Plus/thinkster_django_angular_boilerplate/thinkster_django_angular_boilerplate/urls.py",
+		"/C/Users/rohan/Desktop/Django Google Plus/thinkster_django_angular_boilerplate/thinkster_django_angular_boilerplate/settings.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/settings/secure_settings.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/managers.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/lead.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/templates/forms.html",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/leadsManager/tests.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/wsgi.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/force-oauth.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/urls.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/acc_com_poc/__init__.py",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/templates/registration/login.html",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/db.sqlite3",
+		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/manage.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/mysite/urls.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/polls/views.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/mysite/settings.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/polls/admin.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/polls/models.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/polls/urls.py",
+		"/C/Users/rohan/Desktop/Django Polls/mysite/polls/apps.py",
+		"/C/Users/rohan/Desktop/Django Sample/blog/templates/blog/post_detail.html",
+		"/C/Users/rohan/Desktop/Django Sample/blog/models.py",
+		"/C/Users/rohan/Desktop/Django Sample/blog/post_list.html",
+		"/C/Users/rohan/Desktop/Django Sample/blog/urls.py",
+		"/C/Users/rohan/Desktop/Django Sample/blog/views.py",
+		"/C/Users/rohan/Desktop/Django Sample/blog/admin.py",
+		"/C/Users/rohan/Desktop/Django Sample/.gitignore",
+		"/C/Users/rohan/OneDrive/Documents/acc_community_poc/leadsManager/forms.py",
+		"/C/Users/rohan/OneDrive/Documents/acc_community_poc/templates/about.html",
+		"/C/Users/rohan/Desktop/Learning Python Programming - Working Files/Chapter 3/chap3ex1.py",
+		"/C/Users/rohan/Python Programs/writefile.py",
+		"/C/Users/rohan/Desktop/Heroku Projecct/acc_community_poc/acc_com_poc/settings/__init__.py",
+		"/C/Users/rohan/Desktop/Heroku Projecct/acc_community_poc/acc_com_poc/settings/secure_settings.py",
+		"/C/Users/rohan/Desktop/Heroku Projecct/acc_community_poc/acc_com_poc/settings/local.py"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"JSONResponse"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "all_users.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 55.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TaskBuster.sublime-project",
+	"replace":
+	{
+		"height": 106.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 709.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
