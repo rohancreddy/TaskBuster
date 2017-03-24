@@ -192,15 +192,57 @@
 	"buffers":
 	[
 		{
-			"contents": "from selenium import webdriver\nimport unittest\n\nclass NewVisitorTest(unittest.TestCase):\n\n\tdef setUp(self):\n\t\tself.browser = webdriver.Firefox()\n\t\tself.browser.implicitly_wait(3)\n\n\tdef tearDown(self):\n\t\tself.browser.quit()\n\n\tdef test_it_worked(self):\n\t\tself.browser.get('http://localhost:8000')\n\t\tself.assertIn('Welcome to Django', self.browser.title)\n\n\tif __name__ = '__main__':\n\t\tunittest.main(warnings='ignore')",
-			"file": "functional_tests/all_users.py",
-			"file_size": 432,
-			"file_write_time": 131348433233048926,
+			"file": "functional_tests/test_all_users.py",
 			"settings":
 			{
-				"buffer_size": 414,
+				"buffer_size": 866,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "taskbuster/views.py",
+			"settings":
+			{
+				"buffer_size": 113,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "taskbuster/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 5345,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "taskbuster/tests.py",
+			"settings":
+			{
+				"buffer_size": 444,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "taskbuster/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 90,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "taskbuster/static/css/main.css",
+			"settings":
+			{
+				"buffer_size": 255,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -236,10 +278,31 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/rohan/Desktop/taskbuster_project/functional_tests"
+		"/C/Users/rohan/Desktop/taskbuster_project",
+		"/C/Users/rohan/Desktop/taskbuster_project/functional_tests",
+		"/C/Users/rohan/Desktop/taskbuster_project/requirements",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/static",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/static/css",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/templates"
 	],
 	"file_history":
 	[
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/urls.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/functional_tests/__init__.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/functional_tests/all_users.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/base.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/templates/base.html",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/development.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/production.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/testing.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/staging.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/taskbuster/settings/__init__.py",
+		"/C/Users/rohan/Desktop/taskbuster_project/requirements/testing.txt",
+		"/C/Users/rohan/Desktop/taskbuster_project/requirements/production.txt",
+		"/C/Users/rohan/Desktop/taskbuster_project/requirements/base.txt",
+		"/C/Users/rohan/Desktop/taskbuster_project/requirements/development.txt",
 		"/C/Users/rohan/Desktop/Python Getting Started/python-getting-started/.gitignore",
 		"/C/Users/rohan/Desktop/Django Youtube/manage.py",
 		"/C/Users/rohan/Desktop/Heroku Project/acc_community_poc/Procfile",
@@ -321,7 +384,7 @@
 	],
 	"find":
 	{
-		"height": 55.0
+		"height": 80.0
 	},
 	"find_in_files":
 	{
@@ -335,6 +398,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*",
 			"JSONResponse"
 		],
 		"highlight": true,
@@ -353,24 +417,112 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "functional_tests/all_users.py",
+					"file": "functional_tests/test_all_users.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 414,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								367,
-								367
+								866,
+								866
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "taskbuster/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "taskbuster/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "taskbuster/tests.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
 							]
 						],
 						"settings":
@@ -381,7 +533,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "taskbuster/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "taskbuster/static/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
